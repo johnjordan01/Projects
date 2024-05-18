@@ -4,7 +4,7 @@ from librerie import pymongo
 
 def connect_database():
     # Connessione al database MongoDB
-    client = pymongo.MongoClient('mongodb+srv://johnjordanmack:Password@cluster0.iyh70dw.mongodb.net/')
+    client = pymongo.MongoClient('mongodb+srv://**************:****************@cluster0.iyh70dw.mongodb.net/')
     return client
 
 
